@@ -1,0 +1,32 @@
+.app {
+  overflow: hidden;
+}
+
+
+.app .firstpart .firstpart__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+
+.app .firstpart__content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.app .firstpart__content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-self: center;
+}
+.app .firstpart__content > div > p {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #7a839e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}

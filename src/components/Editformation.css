@@ -1,0 +1,38 @@
+.editer__formation{
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #112e40;
+    font-family: "Poppins", sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .editer__formation h1 {
+    color: white; 
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+  }
+  .editer__formation label {
+    color: white; 
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  .editer__formation .input__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 30px 0;
+  }
+  
+  .input__section > div {
+    width: 100%;
+  }
+  
+  .ajouter__formation .button {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+  }
